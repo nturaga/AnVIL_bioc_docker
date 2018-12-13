@@ -6,7 +6,8 @@ MAINTAINER nitesh.turaga@roswellpark.org
 RUN  rm -f /var/lib/dpkg/available && rm -rf  /var/cache/apt/*
 
 # google-cloud-sdk
-RUN apt-get update && apt-get install -yq --no-install-recommends \
+RUN apt-get update \
+&& apt-get install -yq --no-install-recommends \
     gnupg \
     curl \
     lsb-release \
