@@ -1,6 +1,3 @@
-# DO NOT EDIT 'install.R'; instead, edit 'install.R.in' and
-# use 'rake' to generate 'install.R'.
-
 if ("BiocManager" %in% rownames(installed.packages()))
 	remove.packages("BiocManager")
 
